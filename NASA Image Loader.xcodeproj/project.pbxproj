@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		D4D5B5FC292DD6E7006BFA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B5FB292DD6E7006BFA28 /* AppDelegate.swift */; };
 		D4D5B5FE292DD6E7006BFA28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B5FD292DD6E7006BFA28 /* SceneDelegate.swift */; };
-		D4D5B600292DD6E7006BFA28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B5FF292DD6E7006BFA28 /* ViewController.swift */; };
+		D4D5B600292DD6E7006BFA28 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B5FF292DD6E7006BFA28 /* LaunchViewController.swift */; };
 		D4D5B603292DD6E7006BFA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5B601292DD6E7006BFA28 /* Main.storyboard */; };
 		D4D5B605292DD6EB006BFA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D5B604292DD6EB006BFA28 /* Assets.xcassets */; };
 		D4D5B608292DD6EB006BFA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5B606292DD6EB006BFA28 /* LaunchScreen.storyboard */; };
 		D4D5B613292DD6EC006BFA28 /* NASA_Image_LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B612292DD6EC006BFA28 /* NASA_Image_LoaderTests.swift */; };
 		D4D5B61D292DD6EC006BFA28 /* NASA_Image_LoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B61C292DD6EC006BFA28 /* NASA_Image_LoaderUITests.swift */; };
 		D4D5B61F292DD6EC006BFA28 /* NASA_Image_LoaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B61E292DD6EC006BFA28 /* NASA_Image_LoaderUITestsLaunchTests.swift */; };
+		D4D5B62C292DD8A3006BFA28 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B62B292DD8A3006BFA28 /* ImageViewController.swift */; };
+		D4D5B62E292DD8F4006BFA28 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B62D292DD8F4006BFA28 /* ImageViewModel.swift */; };
+		D4D5B630292DDA42006BFA28 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B62F292DDA42006BFA28 /* ImageProvider.swift */; };
+		D4D5B632292DE33E006BFA28 /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5B631292DE33E006BFA28 /* ImageResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		D4D5B5F8292DD6E7006BFA28 /* NASA Image Loader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA Image Loader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D5B5FB292DD6E7006BFA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D5B5FD292DD6E7006BFA28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4D5B5FF292DD6E7006BFA28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D5B5FF292DD6E7006BFA28 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		D4D5B602292DD6E7006BFA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D5B604292DD6EB006BFA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D5B607292DD6EB006BFA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		D4D5B618292DD6EC006BFA28 /* NASA Image LoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA Image LoaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D5B61C292DD6EC006BFA28 /* NASA_Image_LoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_Image_LoaderUITests.swift; sourceTree = "<group>"; };
 		D4D5B61E292DD6EC006BFA28 /* NASA_Image_LoaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_Image_LoaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4D5B62B292DD8A3006BFA28 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D4D5B62D292DD8F4006BFA28 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		D4D5B62F292DDA42006BFA28 /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		D4D5B631292DE33E006BFA28 /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				D4D5B5FB292DD6E7006BFA28 /* AppDelegate.swift */,
 				D4D5B5FD292DD6E7006BFA28 /* SceneDelegate.swift */,
-				D4D5B5FF292DD6E7006BFA28 /* ViewController.swift */,
+				D4D5B5FF292DD6E7006BFA28 /* LaunchViewController.swift */,
+				D4D5B62B292DD8A3006BFA28 /* ImageViewController.swift */,
+				D4D5B62D292DD8F4006BFA28 /* ImageViewModel.swift */,
+				D4D5B62F292DDA42006BFA28 /* ImageProvider.swift */,
+				D4D5B631292DE33E006BFA28 /* ImageResponse.swift */,
 				D4D5B601292DD6E7006BFA28 /* Main.storyboard */,
 				D4D5B604292DD6EB006BFA28 /* Assets.xcassets */,
 				D4D5B606292DD6EB006BFA28 /* LaunchScreen.storyboard */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D5B600292DD6E7006BFA28 /* ViewController.swift in Sources */,
+				D4D5B600292DD6E7006BFA28 /* LaunchViewController.swift in Sources */,
+				D4D5B62E292DD8F4006BFA28 /* ImageViewModel.swift in Sources */,
+				D4D5B632292DE33E006BFA28 /* ImageResponse.swift in Sources */,
+				D4D5B630292DDA42006BFA28 /* ImageProvider.swift in Sources */,
 				D4D5B5FC292DD6E7006BFA28 /* AppDelegate.swift in Sources */,
+				D4D5B62C292DD8A3006BFA28 /* ImageViewController.swift in Sources */,
 				D4D5B5FE292DD6E7006BFA28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
